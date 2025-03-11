@@ -15,6 +15,8 @@ for(const searchKey of searchKeyword )
         await page.getByLabel('Search',{exact:true}).press('Enter');
 
         await page.waitForTimeout(5000);
+
+        await page.waitForTimeout(2000);
         
     })
 
