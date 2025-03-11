@@ -1,6 +1,6 @@
 import {test, expect} from "@playwright/test"
 
-test.skip('Test 1 ',async({page}) => {
+test('Test 1 ',async({page}) => {
     
 
     await page.goto('https://www.google.com/');
@@ -16,7 +16,7 @@ test.skip('Test 1 ',async({page}) => {
 })
 
 
-test.only('Test 23',async({page}) => {
+test('Test 23',async({page}) => {
     
 
     await page.goto('https://www.google.com/');

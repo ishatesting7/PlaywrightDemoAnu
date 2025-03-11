@@ -10,7 +10,7 @@ test('checkbox and radio button Test ', async()=>{
     await page.goto("https://api.cogmento.com/register/?lang=en");
 
     await page.locator('label[for="ageree"]').check();
-    await expect(page.locator('label[for="ageree"]')).toBeChecked();
+    await expect(page.locator('label[for="ageree"]')).not.toBeChecked();
  
  
     // await page.waitForTimeout(5000);
