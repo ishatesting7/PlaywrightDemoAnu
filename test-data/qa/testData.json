@@ -1,0 +1,16 @@
+{
+    "TestDataSet":{
+        "username1":"admin",
+        "password1":"admin123"
+
+    },
+    "TestDataSet2":{
+        "username1":"admin1",
+        "password1":"admin1234"
+    },
+
+    "TestDataSet3":{
+        "username1":"admin2",
+        "password1":"admin12345"
+    }
+}
