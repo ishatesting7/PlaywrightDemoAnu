@@ -1,0 +1,9 @@
+Endpoint - https://www.easemytrip.com/search.aspx/CheckSignIn
+
+Method Type - GET/POST/PUT/PATCH/DELETE
+
+Response Payload - JSON - Java single object notation
+
+Request Payload - JSON - Key:Value
+
+
