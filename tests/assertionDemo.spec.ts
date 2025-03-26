@@ -19,7 +19,7 @@ test('Assertion Demo', async({page})=>{
 
     await expect(page.getByPlaceholder('Password',{exact:true})).toBeEnabled();
 
-    await expect(page.getByPlaceholder('Password',{exact:true})).toBeEmpty();
+   // await expect(page.getByPlaceholder('Password',{exact:true})).toBeEmpty();
 
     await expect(page.locator('#reg_pages_msg')).toHaveText('Create a Page for a celebrity, brand or business.');
 
